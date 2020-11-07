@@ -2,6 +2,7 @@ import React from 'react';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { getCharacters } from '../../services/hey-arnold-api';
 import ThemeContainer from './ThemeContainer';
+import Header from '../Header/Header';
 
 jest.mock('../../services/hey-arnold-api.js');
 
