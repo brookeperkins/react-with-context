@@ -13,17 +13,3 @@ exports[`<CharacterItem /> renders single character 1`] = `
   </figure>
 </DocumentFragment>
 `;
-
-exports[`CharacterItem component renders single character 1`] = `
-<DocumentFragment>
-  <figure>
-    <img
-      alt="Arnold"
-      src="arnold.jpg"
-    />
-    <figcaption>
-      Arnold
-    </figcaption>
-  </figure>
-</DocumentFragment>
-`;
