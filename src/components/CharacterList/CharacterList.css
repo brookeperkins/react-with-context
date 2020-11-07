@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  --color1: hsla(48, 100%, 58%, 1);
+  --color2: hsla(24, 100%, 50%, 1);
+  --color3: hsla(207, 35%, 50%, 1);
+  --color5: hsla(197, 100%, 45%, 1);
+}
+
+.CharacterList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  max-width: 90%;
+  grid-auto-rows: auto;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 60px;
+  color: var(--color1);
+  -webkit-text-stroke: .4px var(--color5);
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+header button {
+  border: solid var(--color5) 3px;
+  border-radius: 5px;
+  padding: 10px;
+  color: var(--color5);
+  font-size: 20px;
+  font-style: bold;
+  margin-top: 20px;
+  background-color: var(--color1);
+  box-shadow: 2px 2px 5px var(--color5);
+  :active {
+    background-color: red;
+    box-shadow: royalblue;
+    transform: translateY(4px);
+  }
+}
+
+button {
+  margin: 5px;
+  background-color: var(--color2);
+  padding: 10px;
+  border: solid 2px black;
+  border-radius: 5px;
+}
+
+img {
+  padding: 15px;
+  border: solid var(--color3) 5px;
+  border-radius: 5px;
+}
+
