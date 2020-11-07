@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider } from '../../context/ThemeContext';
 import CharacterList from '../CharacterList/CharacterList';
-import Header from '../Header/Header';
+import Header from '../header/Header';
 import './ThemeContainer.css';
 
 const ColorModeContainer = () => {
