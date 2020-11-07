@@ -1,0 +1,16 @@
+body {
+  --color1: hsla(48, 100%, 58%, 1);
+  --color2: hsla(24, 100%, 50%, 1);
+  --color3: hsla(207, 35%, 50%, 1);
+  --color5: hsla(197, 100%, 45%, 1);
+}
+
+.light {
+  color: black;
+  background-color: var(--color1);
+}
+
+.dark {
+  color: white;
+  background-color: var(--color3);
+} 

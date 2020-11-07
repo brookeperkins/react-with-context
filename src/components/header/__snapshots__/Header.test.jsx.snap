@@ -2,9 +2,14 @@
 
 exports[`<Header /> renders the Header 1`] = `
 <DocumentFragment>
-  <h1>
-    Hey Arnold!
-  </h1>
-  ;
+  <header
+    class="dark"
+  >
+    <button
+      data-testid="button"
+    >
+      Toggle Themes
+    </button>
+  </header>
 </DocumentFragment>
 `;

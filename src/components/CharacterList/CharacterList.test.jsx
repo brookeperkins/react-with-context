@@ -2,6 +2,7 @@ import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import CharacterList from './CharacterList';
 import { getCharacters } from '../../services/hey-arnold-api';
+import { ThemeProvider } from '../../context/ThemeContext';
 
 jest.mock('../../services/hey-arnold-api.js');
 
@@ -12,7 +13,9 @@ describe('<CharacterList />', () => {
     ]);
 
     render(
-      <CharacterList />
+      <ThemeProvider>
+        <CharacterList />
+      </ThemeProvider>
     );
 
     screen.getByText('Loading...');

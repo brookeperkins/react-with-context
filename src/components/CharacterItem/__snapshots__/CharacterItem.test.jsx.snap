@@ -2,7 +2,9 @@
 
 exports[`<CharacterItem /> renders single character 1`] = `
 <DocumentFragment>
-  <figure>
+  <figure
+    class="light"
+  >
     <img
       alt="Arnold"
       src="arnold.jpg"
